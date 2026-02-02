@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test01</title>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #b8aeae;
+    }
+
+    header {
+        text-size-: 40px;
+        background: #d3cdcd;
+        color: #f0f0f0;
+        text-align: center;
+        padding: 10px 3px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    h1 {
+        color: gray;
+    }
+
+    h2 {
+        font-size: 32px;
+        border-bottom: 1px solid #585757;
+        padding: 13px 13px;
+    }
+    h3{
+         font-size: 24px;
+        border-bottom: 1px solid #585757;
+        padding: 13px 13px;
+    }
+
+    header {
+        background: #292929;
+        color: #fff;
+        text-align: center;
+        padding: 15px 15px;
+        font-size: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: 7fr 7fr 7fr;
+        padding: 4px 16px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 12px;
+    }
+
+    .card2 {
+        background-color: rgb(98, 176, 228);
+        padding: 10px 16px;
+        font-size: 16px;
+        width: 500px;
+        text-align: left;
+        border-radius: 12px;
+        color: white;
+    }
+
+    .card3 {
+        background-color: #fff;
+        font-size: 16px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .Su {
+        display: grid;
+        grid-template-columns: 1.2fr 3fr;
+        font-size: 16px;
+    }
+
+    footer {
+        background: #707070;
+        text-align: center;
+        padding: 12px;
+        font-size: 13px;
+        color: #ffffff;
+        margin-top: 30px;
+        width: auto;
+    }
+
+    .list-menu ul {
+        display: flex;
+        list-style: none;
+        gap: 5px;
+        margin: 0px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+
+    .list-menu li {
+        margin-top: 10px;
+        transition: transform 0.8s ease;
+    }
+
+    .list-menu li:hover {
+        transform: translatey(-5px);
+    }
+
+    .list-menu a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        /*background-color: rgb(56, 153, 218); */
+        background: linear-gradient(135deg, rgb(49, 132, 226), blue);
+        box-shadow: 0 6px 30px black;
+        padding: 6px;
+        borgb(97, 97, 97)radius: 10px;
+    }
+
+    .list-menu a:hover {
+        background: linear-gradient(135deg, rgb(238, 238, 238), rgb(211, 109, 194));
+    }
+</style>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>📊รายงานผลเกรด</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section class="list-menu">
+            <div class="card">
+                <div class="card">
+                    <ul>
+                        <li><a href="#1">ข้อมูลนักศึกษา</a></li>
+                        <li><a href="#2">ผลการเรียน</a></li>
+                        <li><a href="#3">ติดต่อ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card2">
+                <h2>Suriya Detmanee</h2>
+
+                <div class="Su">
+                    <p>รหัสนักศึกษา:</p>
+                    <p>674230031</p>
+                </div>
+
+                <div class="Su">
+                    <p>ชื่อ-นามสกุล:</p>
+                    <p>สุริยา เดชมณี</p>
+                </div>
+
+                <div class="Su">
+                    <p>หมู่เรียน:</p>
+                    <p>67/43</p>
+                </div>
+
+                <div class="Su">
+                    <p>อาจาร์ยที่ปรึกษา:</p>
+                    <p>พิชยา สุขปลั่ง</p>
+                </div>
+
+                <div class="Su">
+                    <p>Github:</p>
+                    <a href="https://github.com/674230031/webbasic674230031">Github</a>
+                </div>
+            </div>
+
+            <img src="file/zoo.png" alt="รูปนักศึกษา" width="220" height="220" border-radius="500">
+
+        </section>
+
+        <div class="card3">
+            <h3>ปีที่1 เทอม1 : 2.98</h3>
+        </div>
+        <div class="card3">
+            <h3>เกรดเฉลี่ยสะสม 3.00</h3>
+
+        </div>
+
+
+        <footer>
+            <div class="Card">
+                <p>2026 Webmaster by Suriya Detmanee. ID674230031.</p>
+                <p>Nakhon Pathom Rajabhat University</p>
+            </div>
+        </footer>
+
+</body>
+
+</html>
