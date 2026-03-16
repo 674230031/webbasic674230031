@@ -386,13 +386,45 @@ footer {
 
 /* ================= RESPONSIVE ================= */
 @media (max-width: 992px) {
-  .hero {
+  .hero,
+  .customize {
     flex-direction: column;
+  }
+  .solution-content,
+  .discover-content {
+    grid-template-columns: repeat(2, 1);
   }
 }
 
 @media (max-width: 768px) {
-}
+  .header-button {
+    display: none;
+  }
+  #burger-menu {
+    display: block;
+    margin-right: 20px;
+  }
+  #menu {
+    width: 100%;
+    border-top: 1px solid rgb(221, 221, 221);
 
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  #menu.showmenu {
+    max-height: 300px;
+  }
+  .nav-menu {
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 0;
+  }
+  .nav-menu li a {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 8px 0;
+    display: block;
+  }
+}
 @media (max-width: 480px) {
 }
